@@ -1,0 +1,12 @@
+# Ignore everything so an accidental rsync from ~/.cursor cannot
+# stage Cursor-managed files. Un-ignore directories so git can
+# recurse, then allow only repo metadata and skill markdown.
+
+*
+!*/
+
+!.gitignore
+!.editorconfig
+!README.md
+
+!skills/**/*.md
