@@ -23,3 +23,4 @@ rsync -av ~/.cursor/skills/ skills/
 ## Skills
 
 - [`commit-message`](skills/commit-message/SKILL.md) — propose a git commit title and body (`/commit-message`)
+- [`xxx-to-github-issues`](skills/xxx-to-github-issues/SKILL.md) — convert `XXX` comments into tracked GitHub issues and re-point the source comments at those issues
