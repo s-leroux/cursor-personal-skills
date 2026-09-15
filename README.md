@@ -19,3 +19,7 @@ Copy existing local skills from Cursor into this repo:
 ```bash
 rsync -av ~/.cursor/skills/ skills/
 ```
+
+## Skills
+
+- [`commit-message`](skills/commit-message/SKILL.md) — propose a git commit title and body (`/commit-message`)
